@@ -6,8 +6,22 @@ import "./index.css"
 import * as React from "react"
 import { render } from "react-dom"
 
-render(
-  <h1>
-    Hello React TypeScript <span className="fa fa-heart" />
-  </h1>,
-  document.getElementById("root"))
+const view = (
+  <div>
+    <h1>
+      Hello React TypeScript <span className="fa fa-heart" />
+    </h1>
+
+    <h2>
+      VERSION: {VERSION}
+    </h2>
+
+    <h2>
+      RELEASE: {RELEASE}
+    </h2>
+  </div>
+)
+
+window.addEventListener("load", () => {
+  render(view, document.getElementById("root"))
+})
