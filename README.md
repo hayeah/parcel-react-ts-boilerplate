@@ -25,7 +25,11 @@ Edit the [html](https://github.com/hayeah/neutrino-react-ts-boilerplate/blob/727
 
 # JS Constants
 
+You may need to configure different constants depending on which build environment you are using.
 
+You can add or override JavaScript global constants by modifying the files in the [config](https://github.com/hayeah/neutrino-react-ts-boilerplate/tree/master/config) directory.
+
+See [config npm module](https://www.npmjs.com/package/config) for details.
 
 # Other Tips
 
