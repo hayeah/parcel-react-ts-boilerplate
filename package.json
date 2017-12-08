@@ -6,8 +6,8 @@
   "scripts": {
     "start": "neutrino start",
     "build": "neutrino build",
-    "ts-build": "tsc --outDir lib",
-    "ts-watch": "tsc -w --outDir lib"
+    "ts-build": "tsc --outDir lib --module commonjs",
+    "ts-watch": "tsc --outDir lib --module commonjs -w"
   },
   "devDependencies": {
     "@types/react": "^16.0.9",
