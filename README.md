@@ -31,6 +31,28 @@ You can add or override JavaScript global constants by modifying the files in th
 
 See [config npm module](https://www.npmjs.com/package/config) for details.
 
+# Node JS
+
+Aside from frontend, you can also write NodeJS scripts in TypeScript. Put your scripts in [src/scripts](src/scripts), and compile by running:
+
+```
+yarn run ts-build
+```
+
+The scripts will be compiled to `lib/scripts`. Run with node:
+
+```
+node lib/scripts/hello.js
+```
+
+To automatically rebuild, run:
+
+```
+yarn run ts-watch
+```
+
+
+
 # Other Tips
 
 Generating sourcemap may slow down project rebuilding. Webpack provide other sourcemap types that can speed up project building.

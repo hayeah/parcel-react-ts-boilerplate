@@ -5,7 +5,9 @@
   "license": "MIT",
   "scripts": {
     "start": "neutrino start",
-    "build": "neutrino build"
+    "build": "neutrino build",
+    "ts-build": "tsc --outDir lib",
+    "ts-watch": "tsc -w --outDir lib"
   },
   "devDependencies": {
     "@types/react": "^16.0.9",
