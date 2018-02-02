@@ -13,16 +13,13 @@
     "@types/react": "^16.0.9",
     "@types/react-dom": "^16.0.0",
     "config": "^1.28.1",
-    "neutrino": "^7.0.2",
-    "neutrino-preset-react": "^7.0.2",
-    "neutrino-preset-react-typescript": "^1.0.1",
     "tslint": "^5.7.0",
     "typescript": "^2.5.3"
   },
   "dependencies": {
     "font-awesome": "^4.7.0",
     "normalize.css": "^7.0.0",
-    "qtumjs": "^1.4.1",
+    "qtumjs": "^1.7.3",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   }
