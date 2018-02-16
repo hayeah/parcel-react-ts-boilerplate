@@ -3,6 +3,8 @@ import { observer } from "mobx-react"
 
 import { AppData } from "./AppData"
 
+import * as css from "./App.css"
+
 @observer
 export class App extends React.Component {
   private data = new AppData()
@@ -22,7 +24,7 @@ export class App extends React.Component {
           Hello React TypeScript <span className="fa fa-heart" />
         </h1>
 
-        <p>
+        <p className={css.timestamp}>
           UnixTime: {nowUnixTime}
         </p>
       </div >
