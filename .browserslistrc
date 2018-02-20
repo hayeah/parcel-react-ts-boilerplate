@@ -1,5 +1,1 @@
-[production staging]
-chrome >= 62
-
-[development]
 chrome >= 62

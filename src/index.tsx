@@ -8,7 +8,12 @@ import { render } from "react-dom"
 
 import { App } from "./views/App"
 
+async function foo() {
+  return 10
+}
+
 function renderApp() {
+  console.log("async", foo())
   render(<App />, document.getElementById("root"))
 }
 
