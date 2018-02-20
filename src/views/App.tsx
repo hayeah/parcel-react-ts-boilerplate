@@ -5,6 +5,8 @@ import { AppData } from "./AppData"
 
 import * as css from "./App.css"
 
+import config from "../config"
+
 @observer
 export class App extends React.Component {
   private data = new AppData()
@@ -26,6 +28,8 @@ export class App extends React.Component {
 
         <p className={css.timestamp}>
           UnixTime: {nowUnixTime}
+          <br />
+          Release: {config.RELEASE}
         </p>
       </div >
     )
