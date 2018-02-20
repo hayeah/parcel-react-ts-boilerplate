@@ -12,11 +12,11 @@
   "devDependencies": {
     "@types/react": "^16.0.9",
     "@types/react-dom": "^16.0.0",
+    "autoprefixer": "^8.0.0",
     "config": "^1.28.1",
+    "postcss-modules": "^1.1.0",
     "tslint": "^5.7.0",
     "typed-css-modules": "^0.3.1",
-    "autoprefixer": "^8.0.0",
-    "postcss-modules": "^1.1.0",
     "typescript": "^2.5.3"
   },
   "dependencies": {
